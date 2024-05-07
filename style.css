@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body, #button-generate{
+    font-family: "JetBrains Mono", monospace;
+    background-color: #f5f5f5;
+}
+
+#container{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 30px 50px;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 15px #00000091;
+    border-radius: 8px;
+}
+
+#button-generate{
+    border: 0px;
+    background-color: #c21d03;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#button-generate:hover{
+    background-color: black;
+    font-size: 1.7em;
+}
+
+label, input{
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#size-input{
+    width: 50%;
+    margin: 10px 0px 10px 0px;
+    border-radius: 8px;
+    border: 0px;
+    box-shadow: 5px 5px 15px #0000003a;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#size-input:hover{
+    font-size: 2em;
+    width: 60%;
+}
+
+#password-output{
+    font-size: 2.5em;
+}
